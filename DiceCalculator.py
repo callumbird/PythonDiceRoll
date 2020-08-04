@@ -13,12 +13,6 @@ else:
 for roll in range (0, repeats):
     rollDice(diceList)
 
-def manualArgumentAssignment():
-    print("No arguments have been passed when this program has been called. Please, instead, enter the required values below \n")
-    dice_string = input("Enter a list of dice to roll. \n")
-    modifier_string = input("Enter a list of modifiers to add to each roll. \n")
-    repeats = input("Enter a number of times to perform these rolls")
-
 def splitArguments(char):
     list = []
     numberOfArgumentsToSplit = len(sys.argv)
